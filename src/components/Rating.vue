@@ -60,7 +60,7 @@ export default {
         })
         .then(response => {
           this.items = response.data.payload
-          this.$Notify({ title: 'Ready to Rate', message: 'Data Retrieved', type:'success' })
+          this.$Notify({ title: 'DEMO Ready to Rate', message: 'Data Retrieved', type:'success' })
           // hardcoding this for now
           this.userIp = '127.0.0.1'
         })
